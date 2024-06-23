@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ <script src="app.js" defer></script>
+ <title>Login</title>
+</head>
+<body>
+ <div class="container">
+ <form action="regServlet" method="post" id="form">
+ <h1>V BANK</h1>
+ <h2>Register</h2>
+
+ <div class="input-group">
+ <label for="Accno">Account no</label>
+ <input type="text" placeholder="Enter account number" name="Accno" >
+ <div class="error"></div>
+ </div>
+ 
+  <div class="input-group">
+ <label for="Username">Username</label>
+ <input type="text" placeholder="Enter username" name="Username">
+ <div class="error"></div>
+ </div>
+ 
+ <div class="input-group">
+ <label for="Password">Password</label>
+ <input type="password" placeholder="Enter password" name="Password">
+ <div class="error"></div>
+ </div>
+ <div class="input-group">
+ <label for="Balance">Balance</label>
+ <input type="text" placeholder="Enter initial amount to open account" name="Balance">
+ <div class="error"></div>
+ </div>
+ <button type="submit">Register</button>
+ <p> <a href="index.html"></a>
+ </p>
+ </form>
+ </div>
+</body>
+</html>
